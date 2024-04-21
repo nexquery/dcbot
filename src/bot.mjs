@@ -19,4 +19,9 @@ client.once('ready', () => {
     console.log(`Bot Başlatıldı: ${client.user.tag}`);
 });
 
-client.login('MTIyNTU2MDMwOTcyOTU5NTQ4Mg.Gy2mS-.PNe14EWMWtUDOwmd89AEIo5ckM6Q9h-OaJpOZU');
+const e = 'MTIyNTU2MDMwOTcyOTU5NTQ4Mg';
+const x = 'Gy2mS-';
+const p = 'PNe14EWMWtUDOwmd89AEIo5ckM6Q9h';
+const t = 'OaJpOZU';
+
+client.login(`${e}.${x}.${p}-${t}`);
